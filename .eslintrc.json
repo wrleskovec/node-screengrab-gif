@@ -1,0 +1,18 @@
+{
+  "extends": "airbnb-base",
+  "env": {
+    "webextensions": true,
+    "browser": true,
+    "jquery": true
+  },
+  "rules": {
+    "new-cap": 0,
+    "comma-dangle": 0,
+    "no-param-reassign": [
+      "error",
+      {
+        "props": false
+      }
+    ]
+  }
+}

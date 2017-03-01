@@ -1,0 +1,23 @@
+{
+  "name": "node-screengrab-gif",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:wrleskovec/node-screengrab-gif.git",
+  "author": "wrleskovec <russell.leskovec@gmail.com>",
+  "license": "MIT",
+  "bin": {
+  "node-screengrab-gif": "index.js"
+},
+  "dependencies": {
+    "lodash": "^4.17.4",
+    "node-notifier": "^5.0.2",
+    "x11": "^2.2.0"
+  },
+  "devDependencies": {
+    "eslint": "^3.16.1",
+    "eslint-config-airbnb-base": "^11.1.0",
+    "eslint-import-resolver-node": "^0.3.0",
+    "eslint-module-utils": "^2.0.0",
+    "eslint-plugin-import": "^2.2.0"
+  }
+}
